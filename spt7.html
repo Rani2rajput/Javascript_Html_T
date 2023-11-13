@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cercle</title>
+
+    <style>
+        .cercle {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            margin-right: 50px;
+            float: left;
+        }
+        
+        #red {
+            background-color: red;
+        }
+        
+        #black {
+            background-color: black;
+        }
+        
+        #blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cercle" id="red"></div>
+    <div class="cercle" id="black"></div>
+    <div class="cercle" id="blue"></div>
+</body>
+<script>
+    document.getElementById("red").onclick = function() {
+        document.getElementById("red").style.display = "none";
+    }
+</script>
+
+</html>

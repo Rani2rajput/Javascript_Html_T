@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>event_lisner</title>
+</head>
+
+<body>
+    <button id="tone">Please click me</button>
+</body>
+<script>
+    document.getElementById("tone").addEventListener("tone", function(Event) {
+        var audio = new Audio('ring.mp3');
+        audio.play();
+
+
+    })
+</script>
+
+</html>

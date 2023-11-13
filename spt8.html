@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>gueassing_game</title>
+
+</head>
+
+<body>
+    <p>Please click:<input id="ranu" type="text">
+        <button id="add">Summit</button>
+
+        <script>
+            var uservalue = 0;
+            document.getElementById("add").onclick = function() {
+                uservalue = document.getElementById("ranu").value
+                alert(uservalue)
+            }
+        </script>
+</body>
